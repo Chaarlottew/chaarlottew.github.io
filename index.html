@@ -10,15 +10,86 @@
 <body>
     <header>
 
-        testing
-        w?
-        <a href="https://charlottew.au/mr2/">mr2</a>
-        <a href="https://charlottew.au/assignment/">assignment</a>
-        more test
+        <div class="name2">Charlottes Website 2023</div>
+        <div class="name3">View some of my small projects</div>
     </header>
+    <table style="width:100%">
+        <tr>
+            <th>
+                <div class="mr2title"><a href="https://charlottew.au/mr2/">All about my MR2</a></div>
+
+            </th>
+
+            <th>
+                <div class="utstitle"><a href="https://charlottew.au/assignment/">UTS Assignment</a></div>
+
+            </th>
+
+        </tr>
+
+        <tr>
+            <td>
+                <div class="content" style="max-width:400px">
+                    <img class="mySlides" src="mr2.JPG" style="width:100%">
+                    <img class="mySlides" src="mr21.JPG" style="width:100%">
+                    <img class="mySlides" src="mr22.jpg" style="width:100%">
+                    <img class="mySlides" src="mr23.jpg" style="width:100%">
+                    <img class="mySlides" src="mr24.jpg" style="width:100%">
+
+                </div>
+            </td>
+            <td>
+                <div class="content1" style="max-width:400px;">
+                    <img class="mySlides1" src="2.png" style="width:400px; height:600px">
+                   
+
+                </div>
+            </td>
+
+        </tr>
+    </table>
+
 
 
 </body>
+
+</head>
+
+
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
+<script>
+    var myIndex1 = 0;
+    carousel1();
+
+    function carousel1() {
+        var j;
+        var y = document.getElementsByClassName("mySlides1");
+        for (j = 0; j < y.length; j++) {
+            y[j].style.display = "none";
+        }
+        myIndex1++;
+        if (myIndex1 > y.length) { myIndex1 = 1 }
+        y[myIndex1 - 1].style.display = "block";
+        setTimeout(carousel1, 2000); // Change image every 2 seconds
+    }
+</script>
+
 
 
 </html>

@@ -2,3 +2,78 @@ html {
     background-color: #292929;
     overflow: scroll;
 }
+
+.name2 {
+
+    margin-top: 30px;
+    text-align: center;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+.name3 {
+
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.mr2title {
+
+    margin-top: 40px;
+
+    padding-bottom: 20px;
+
+    text-align: center;
+
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+
+
+.mySlides {
+    margin-left: 40px;
+
+}
+
+.mySlides1 {
+    margin-right: 40px;
+    float: right;
+
+
+}
+
+.content {
+    float: left;
+    margin-left: 40px;
+}
+
+.content1 {
+    float: right;
+    margin-right: 40px;
+}
+
+.utstitle {
+
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.utstitle2 {
+
+    margin-top: 40px;
+    float: right;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
