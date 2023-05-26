@@ -1,5 +1,3 @@
-
-
 Hello World!
 hello testing
 - [Assignment](/assignment/)
